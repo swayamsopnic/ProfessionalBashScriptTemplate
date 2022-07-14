@@ -1,0 +1,28 @@
+#!/bin/bash
+
+figlet developed by Anubis
+echo hello everyone
+echo i am anubis
+echo telegram id https://t.me/KingMrAnubis
+echo join me on telegram
+echo please read readme.txt file before running the script
+echo
+echo
+echo
+echo
+echo
+
+
+echo -e "please provide File name you want to create(note do not put any extension at end) : \c"
+read -r file
+
+touch /home/scripts/$file.sh
+
+echo '#!/bin/bash' > /home/scripts/$file.sh
+echo '#  purpose:' >> /home/scripts/$file.sh
+echo '# Version:' >> /home/scripts/$file.sh
+echo '# Created Date :' >> /home/scripts/$file.sh
+echo '# Modified date :' >> /home/scripts/$file.sh
+echo '# Author : ' >> /home/scripts/$file.sh 
+echo '#START#' >> /home/scripts/$file.sh
+echo '#END#' >> /home/scripts/$file.sh
